@@ -7,7 +7,7 @@ export const StyledHome = styled.div`
   align-items: center;
   padding: 1rem;
   row-gap: 1rem;
-  height: 100%;
+  min-height: 100vh;
 `;
 
 export const ReplydComments = styled.div`
@@ -38,6 +38,7 @@ export const Form = styled.form`
   row-gap: 1rem;
   background-color: hsl(0, 0%, 100%);
   padding: 0.8rem;
+  margin-top: auto;
   div {
     width: 100%;
     height: 35%;
